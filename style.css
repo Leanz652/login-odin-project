@@ -1,0 +1,131 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAFB;
+    font-family: sans-serif;
+}
+
+#main-conteiner {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-conteiner > * {
+    padding-left: 48px;
+}
+
+#img-conteiner {
+    width: 40%;
+    height: 100%;
+    background-image: url(./img/leaf-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#phrase-background {
+
+    position: absolute;
+    width: inherit;
+    height: 17%;
+    top: 25%;
+    box-sizing: border-box;
+    background-color: rgb(0,0,0,50%);
+}
+
+#phrase-conteiner{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#phrase-conteiner > * {
+    height: 80%;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Skranji', cursive;
+    font-size: 6rem;
+    color: white;
+}
+
+#form-login {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    flex-basis: 20%;
+    padding-right: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#form-conteiner {
+    background-color: white;
+    box-shadow: 0 5px 5px 4px rgb(0 0 0 / 10%);
+}
+
+input {
+    display: block;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    font-size: 1.25rem;
+}
+
+label {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1px;
+}
+
+
+.ftquote {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+
+}
+
+.formquote {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+button {
+    background-color: #596D48;
+    font-size: 1.3rem;
+    letter-spacing: 0.3px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px 4px rgb(0 0 0 / 10%);
+    border: none;
+}
+
+#cuentaExistente{
+    margin-top: 15px;
+}
+
+#logHere{
+    color: #596D48;
+    font-weight: 700;
+    cursor: pointer;
+}
